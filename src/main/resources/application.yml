@@ -1,0 +1,17 @@
+server:
+  port: 0
+spring:
+  rabbitmq:
+    host: localhost
+    port: 15672
+    username: guest
+    password: guest
+  application:
+    name: account-management-ms
+  devtools:
+    restart:
+      enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka
